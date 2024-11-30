@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "AnimalFind",
+    "slug": "animalFind3",
+    "owner": "shepherdpaul",
+    "scheme": "animalfind",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/images/logo_icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/logo_icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.animalfind.paulshepherd"
+    },
+    "android": {
+      "package": "com.animalfind.paulshepherd",
+      "googleServicesFile": "./google-services.json"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "@react-native-google-signin/google-signin"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "2b9c3223-c2b2-4ea7-9d0b-5dcf917524a8"
+      }
+    }
+  }
+}

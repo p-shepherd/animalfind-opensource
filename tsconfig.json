@@ -1,0 +1,20 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "./*"
+      ]
+    }
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    "app/**/*.jsx", // This will include all JSX files in the app folder
+    "app/**/*.js", // This will include all JSX files in the app folder
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts"
+, "components/GoogleTextInput.tsx","app/(createpost)/addfound.jsx","app/register.js", "app/login.js", "app/index.js", "app/_layout.js", "app/(tabs)/search.js", "app/(tabs)/profile.js", "app/(tabs)/home.js", "app/(tabs)/add.js", "app/(tabs)/_layout.js"  ]
+}
